@@ -1,0 +1,53 @@
+// >>>>>>>>>> CUSTOM VARIABLES <<<<<<<
+
+// MY THEME COLORS
+// $alt-red: #ff002f;
+$alt-red: #cb0000;
+$alt-red-dark: #db042b;
+$alt-black: #101010;
+$alt-light: #f4f4f4;
+$alt-dark: #726d79;
+$alt-super-dark: #272531;
+
+// WHITE AND GRAYS
+// $white: #e6f1ff;
+$white: #ffffff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+// $black: #100f0f;
+$black: $alt-black;
+
+$primary: $alt-red;
+$secondary: $alt-black;
+$light: $alt-light;
+
+// INPUT
+$input-focus-border-color: tint-color(rgb(10, 10, 10), 50%);
+$input-focus-box-shadow: 0 0 5px rgb(0, 0, 0);
+
+//SELECT
+$form-select-focus-border-color: tint-color(rgb(10, 10, 10), 50%);
+$form-select-focus-box-shadow: 0 0 5px rgb(0, 0, 0);
+
+//NAVBAR
+$navbar-dark-hover-color: $secondary;
+$navbar-dark-active-color: $secondary;
+$navbar-dark-toggler-border-color: none;
+$navbar-dark-brand-color: $secondary;
+$navbar-dark-brand-hover-color: $secondary;
+
+$navbar-light-hover-color: $primary;
+$navbar-light-active-color: $primary;
+$navbar-light-toggler-border-color: none;
+$navbar-light-brand-color: $secondary;
+$navbar-light-brand-hover-color: $secondary;
+
+// IMPORT BOOTSTRAP
+@import "../../../../node_modules/bootstrap/scss/bootstrap.scss";

@@ -1,0 +1,38 @@
+>>>>>>>> REACT PROJECT  <<<<<<<<<<<<<
+
+>>> Bootstrap
+npm install bootstrap react-bootstrap
+
+>>> Node Sass
+npm i node-sass
+
+>>> React Router
+npm install react-router-dom
+
+>>> Date-fns
+ npm install date-fns  
+
+ >>> SweetAlert
+ npm install sweetalert2
+
+
+>>>>>>>>> EXPRESS <<<<<<<<<<<
+
+>>> Express JS
+npm install Express
+
+>>> Dotenv
+npm install Dotenv
+
+>>> Mongoose
+npm install mongoose
+
+>>> Bcrypt
+npm install bcrypt
+
+>>> JSON Web Token
+npm install jsonwebtoken
+
+>>> Validator
+npm install validator
+

@@ -1,0 +1,18 @@
+@use "../../custom" as *;
+
+.main-navbar {
+  height: 5rem;
+  border-bottom: 1px solid $gray-300;
+
+  a {
+    color: $alt-dark;
+    text-decoration: none;
+
+    &:hover {
+      color: $primary;
+    }
+  }
+  .active {
+    color: $primary;
+  }
+}

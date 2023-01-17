@@ -1,0 +1,35 @@
+.hero-banner {
+  background-image: url("https://www.vertumotors.com/custom/87365.jpg");
+  height: 88vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .hero-title {
+    font-size: 3.5rem;
+    color: #ffff;
+  }
+}
+
+.services-banner {
+  background-image: url("https://www.vertumotors.com/custom/87365.jpg");
+  height: 60vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .hero-title {
+    font-size: 2rem;
+    color: #ffff;
+    line-height: 3rem;
+  }
+}
+
+@media screen and(max-width: 992px) {
+  .services-banner {
+    .hero-title {
+      font-size: 1.5rem;
+      line-height: 3rem;
+    }
+  }
+}

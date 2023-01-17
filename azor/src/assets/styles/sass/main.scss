@@ -1,0 +1,11 @@
+// CUSTOM THEME
+@use "./custom";
+@use "./general";
+
+//COMPONENTS
+@use "./components/typography/fonts";
+@use "./components/banners/banner";
+@use "./components/navbars/main-navbar";
+@use "./components/cards/services";
+@use "./components/errors/error";
+@use "./components/adminwidgets/widgets";

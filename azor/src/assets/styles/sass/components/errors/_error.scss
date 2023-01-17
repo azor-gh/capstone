@@ -1,0 +1,22 @@
+@use "../../custom" as *;
+
+div.error {
+  padding: 10px;
+  background: #ffefef;
+  border: 1px solid rgb(253, 37, 55);
+  color: rgb(253, 37, 55);
+  border-radius: 4px;
+  margin: 20px 0;
+}
+
+input.error,
+select.error,
+textarea.error,
+.formGridCheckbox.error {
+  border: 1px solid rgb(253, 37, 55);
+}
+
+input,
+select {
+  border: 1px solid rgb(22, 221, 112);
+}

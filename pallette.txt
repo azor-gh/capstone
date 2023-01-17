@@ -1,0 +1,4 @@
+red: #CB0000
+dark-gray: #202020
+light-grey: #EFEFF4
+grey: #d2d2d2
