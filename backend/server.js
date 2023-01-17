@@ -26,7 +26,7 @@ app.use("/api/inquiries", customerInquiryRoutes);
 // CONNECT TO MONGO DB
 mongoose
   .connect(process.env.MONGO_URI)
-  .then(() => {
+  .then(() => {  
     // Listen to port
     app.listen(process.env.PORT, () => {
       console.log("listening on port", process.env.PORT);
